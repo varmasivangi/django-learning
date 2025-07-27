@@ -11,4 +11,4 @@ def shopping_page(request):
     return JsonResponse(data)
      
 def show_html_page(request):
-    return render(request,"home.html")
+    return render(request,"index.html")
